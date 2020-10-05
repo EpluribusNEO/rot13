@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ROT-13</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+	<script src="jscript/myscript.js"></script>
+</head>
+<body>
+	<h1>ROT-13</h1>
+	<noscript>
+		<p>
+			<span class="warning"><i>Please enable JavaScript and refresh this page</i></span>
+		</p>
+	</noscript>
+	
+	<p>
+		<textarea id="indata" cols="80" rows="12" autofocus></textarea>
+	</p>
+	
+	<p>
+		<input class="btnRot" type="button" value="encrypt/decrypt" onclick="update()">
+	</p>
+	
+	<p>
+		<textarea id="outdata" cols="80" rows="12" readonly></textarea>
+	</p>
+	
+	
+	<p>
+		<input calss="btnAbout" type="button" value="About" onclick="about()">
+	</p>
+	
+	<p class="about" id="about">
+	</p>
+	
+	<p class="created">
+		Created by: EPluribusNEO<br>Lecense: Apache Version 2.0<br>
+		Get the source code: <a href="https://github.com/EpluribusNEO/rot13" target="_blank">GitHub</a>
+	</p>
+</body>
+</html>
